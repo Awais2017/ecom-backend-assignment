@@ -1,0 +1,9 @@
+﻿namespace ecom_backend.Resources
+{
+    public class GetCategoriesResource
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+    }
+}
